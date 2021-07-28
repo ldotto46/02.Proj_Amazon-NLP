@@ -4,6 +4,15 @@
 
 Este projecto tiene como objetivo utilizar NLP para asignar puntajes a diferentes items segun las criticas de los usarios
 
-https://registry.opendata.aws/amazon-reviews-ml/
 
 Licence >  https://docs.opendata.aws/amazon-reviews-ml/license.txt
+
+## Flujo de trabajo
+
+- 1 Obtencion de datos: https://registry.opendata.aws/amazon-reviews-ml/
+
+- 2 Normalizacion: limpiamos caracteres (stemmizar o lemmatizar)
+
+- 3 Vectorizacion: representar cada rtexto como un vector de features para entrenar uno de los modelos
+
+- 4 Modelos 
