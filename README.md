@@ -13,6 +13,6 @@ Licence >  https://docs.opendata.aws/amazon-reviews-ml/license.txt
 
 - 2 Normalizacion: limpiamos caracteres (stemmizar o lemmatizar)
 
-- 3 Vectorizacion: representar cada rtexto como un vector de features para entrenar uno de los modelos
+- 3 Vectorizacion: representar cada texto como un vector de features para entrenar uno de los modelos
 
 - 4 Modelos 
